@@ -6,21 +6,18 @@
 
 This Bash script helps you perform a quick system check by automating the process of updating package lists, identifying upgradable packages, and monitoring disk and memory usage. It's a handy tool for Linux administrators and developers who want to keep their systems up-to-date and efficiently managed.
 
---
 
 ## Features
 - **Updates Check:** Runs `apt update` to fetch the latest package information and lists upgradable packages.
 - **Disk Usage Monitoring:** Displays disk usage for all filesystems in a human-readable format.
 - **Memory Usage Monitoring:** Reports current memory usage in an easy-to-read format.
 
---
 
 ## Prerequisites
 - A Linux-based operating system (e.g., Ubuntu/Debian).
 - `sudo` permissions for the user running the script.
 - `bash` shell.
 
---
 
 ## Usage
 
@@ -34,7 +31,6 @@ This Bash script helps you perform a quick system check by automating the proces
 
 - Run the script:./system_check.sh
 
---
 
 **Script Explanation**
 - `Checking Updates:`- sudo apt update -qq fetches package information quietly.
