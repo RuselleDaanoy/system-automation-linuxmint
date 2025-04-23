@@ -35,25 +35,6 @@ This Bash script helps you perform a quick system check by automating the proces
 - Run the script:./system_check.sh
 
 
-
-**Example Output:**
-
-Checking System
-
-Checking Updates:
-Listing... Done
-<Upgradable Packages>
-
-Checking Disk Usage:
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/sda1        50G   15G   32G  32% /
-
-Checking Memory Usage:
-              total        used        free      shared  buff/cache   available
-Mem:          7.7Gi       2.1Gi       3.5Gi       512Mi       2.1Gi       5.3Gi
-
-
-
 **Script Explanation**
 - `Checking Updates:`- sudo apt update -qq fetches package information quietly.
 - sudo apt list --upgradable lists packages that can be upgraded.
